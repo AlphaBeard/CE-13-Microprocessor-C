@@ -1,0 +1,7 @@
+all: rpg
+
+rpg: Player.c Game.c Lab10_main.c
+	gcc -Wall Player.c Game.c Lab10_main.c -o rpg
+	
+clean: rpg
+	rm rpg
